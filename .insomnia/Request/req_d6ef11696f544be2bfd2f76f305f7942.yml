@@ -1,0 +1,29 @@
+_id: req_d6ef11696f544be2bfd2f76f305f7942
+type: Request
+parentId: fld_ccf42c020d3b420da2604311fdf820a6
+modified: 1668957316236
+created: 1668736729246
+url: "{{ _.baseURL }}/categories"
+name: Create Category
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"name": "HRV",
+    	"description": "SUV"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1668736729246
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
