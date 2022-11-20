@@ -1,0 +1,21 @@
+_id: req_45f99993e7754793a1d3573cf535de95
+type: Request
+parentId: fld_5c4a78fd3de7489084810b7afaaaa502
+modified: 1668957389423
+created: 1668957374556
+url: "{{ _.baseURL }}/specifications"
+name: Create Specification
+description: ""
+method: POST
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1668957374556
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
