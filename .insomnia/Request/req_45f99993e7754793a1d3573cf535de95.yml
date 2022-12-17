@@ -1,15 +1,23 @@
 _id: req_45f99993e7754793a1d3573cf535de95
 type: Request
 parentId: fld_5c4a78fd3de7489084810b7afaaaa502
-modified: 1668957389423
+modified: 1671240431500
 created: 1668957374556
 url: "{{ _.baseURL }}/specifications"
 name: Create Specification
 description: ""
 method: POST
-body: {}
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"name": "Câmbio Automático",
+    	"description": "Carro com câmbio automático"
+    }
 parameters: []
-headers: []
+headers:
+  - name: Content-Type
+    value: application/json
 authentication: {}
 metaSortKey: -1668957374556
 isPrivate: false
