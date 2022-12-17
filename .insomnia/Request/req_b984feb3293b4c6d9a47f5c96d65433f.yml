@@ -1,0 +1,29 @@
+_id: req_b984feb3293b4c6d9a47f5c96d65433f
+type: Request
+parentId: fld_0d5c0644d72a46a882278e795995dd11
+modified: 1671240666430
+created: 1671240551426
+url: "{{ _.baseURL }}/sessions"
+name: Authenticate
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"emai": "bernardomennndes@outlook.com",
+    	"password": "123"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1671240551426
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
