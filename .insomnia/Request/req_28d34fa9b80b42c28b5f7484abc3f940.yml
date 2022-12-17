@@ -1,0 +1,32 @@
+_id: req_28d34fa9b80b42c28b5f7484abc3f940
+type: Request
+parentId: fld_b95ba3454c58492cac24aa07b78850c1
+modified: 1671240456279
+created: 1671240301395
+url: "{{ _.baseURL }}/users"
+name: Create User
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"name": "Bernardo Mendes",
+    	"username": "bernardomennndes",
+    	"password": "123",
+    	"email": "bernardomennndes@outlook.com",
+    	"driver_license": "12345678910"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1671240301395
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
