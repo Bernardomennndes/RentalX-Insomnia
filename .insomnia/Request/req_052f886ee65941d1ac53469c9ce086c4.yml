@@ -1,10 +1,10 @@
 _id: req_052f886ee65941d1ac53469c9ce086c4
 type: Request
 parentId: fld_ccf42c020d3b420da2604311fdf820a6
-modified: 1671240687589
+modified: 1673744176553
 created: 1671240503040
 url: "{{ _.baseURL }}/categories/import"
-name: Import Categories
+name: Import Categories (CSV)
 description: ""
 method: POST
 body:
