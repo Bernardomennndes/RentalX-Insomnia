@@ -1,0 +1,19 @@
+_id: env_04aac786436e4e59a3858e2d1b9a6ae9
+type: Environment
+parentId: env_89380b1bcf41cfc10c745db4b9376ed4f67df201
+modified: 1675016556746
+created: 1675004416383
+name: Admin Account - Rentx
+data:
+  email: admin@rents.com.br
+  password: admin
+  token: "{% response 'body', 'req_b984feb3293b4c6d9a47f5c96d65433f',
+    'b64::JC50b2tlbg==::46b', 'when-expired', 900 %}"
+dataPropertyOrder:
+  "&":
+    - email
+    - password
+    - token
+color: null
+isPrivate: false
+metaSortKey: 1675004416384
