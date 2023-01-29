@@ -1,0 +1,28 @@
+_id: req_1d932a2e42944fc1afa255388dd54077
+type: Request
+parentId: fld_96bd874397294092922cbc5b0a46dba1
+modified: 1675018098010
+created: 1675018049277
+url: "{{ _.baseURL }}/{{ _.module }}/forgot"
+name: Send "Forgot Password" Email
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"email": "{{ _.email }}"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1675018049277
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
