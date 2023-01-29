@@ -1,0 +1,32 @@
+_id: req_e4bf8e7ab15d40dbbd855a6b324e9901
+type: Request
+parentId: fld_b95ba3454c58492cac24aa07b78850c1
+modified: 1675017004870
+created: 1675016702977
+url: "{{ _.baseURL }}/{{ _.module }}/avatar"
+name: Update User Avatar
+description: ""
+method: PATCH
+body:
+  mimeType: multipart/form-data
+  params:
+    - id: pair_aafc4682c27f4a888b59265dc9636a0b
+      name: avatar
+      value: ""
+      description: ""
+      type: file
+parameters: []
+headers:
+  - name: Content-Type
+    value: multipart/form-data
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+metaSortKey: -1671240301345
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,30 @@
+_id: req_9eadcdc2127a46da84382fa8586009d7
+type: Request
+parentId: fld_e7c73b4989d7452f9d1546b663277f28
+modified: 1675017838467
+created: 1675017692990
+url: "{{ _.baseURL }}/{{ _.module }}/specifications/:id"
+name: Link Specifications to Car
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"specifications_id": []
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+metaSortKey: -1673744153439
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

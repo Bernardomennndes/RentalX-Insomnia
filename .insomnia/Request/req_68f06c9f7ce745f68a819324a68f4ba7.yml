@@ -1,0 +1,23 @@
+_id: req_68f06c9f7ce745f68a819324a68f4ba7
+type: Request
+parentId: fld_e7c73b4989d7452f9d1546b663277f28
+modified: 1675017659873
+created: 1675017630502
+url: "{{ _.baseURL }}/{{ _.module }}/available"
+name: Available Cars
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+metaSortKey: -1675017630502
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

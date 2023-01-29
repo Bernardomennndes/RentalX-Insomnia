@@ -1,0 +1,28 @@
+_id: req_097f3e105b824daeadfb255087936ad1
+type: Request
+parentId: fld_0d5c0644d72a46a882278e795995dd11
+modified: 1675021065695
+created: 1675003944076
+url: "{{ _.baseURL }}/refresh-token"
+name: Generate Refresh-Token
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"token": ""
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1675003944076
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,32 @@
+_id: req_7785e5f2058641bbb891a47c72b412ec
+type: Request
+parentId: fld_e7c73b4989d7452f9d1546b663277f28
+modified: 1675017982942
+created: 1675017918217
+url: "{{ _.baseURL }}/{{ _.module }}/images/:id"
+name: Upload Car Images
+description: ""
+method: POST
+body:
+  mimeType: multipart/form-data
+  params:
+    - id: pair_c58c82669de946758f0cfea9af7021cb
+      name: images
+      value: ""
+      description: ""
+      type: file
+parameters: []
+headers:
+  - name: Content-Type
+    value: multipart/form-data
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+metaSortKey: -1673744153389
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
