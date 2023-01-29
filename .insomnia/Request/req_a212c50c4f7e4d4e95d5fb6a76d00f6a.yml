@@ -1,9 +1,9 @@
 _id: req_a212c50c4f7e4d4e95d5fb6a76d00f6a
 type: Request
 parentId: fld_e7c73b4989d7452f9d1546b663277f28
-modified: 1673744287042
+modified: 1675021913870
 created: 1673744153489
-url: "{{ _.baseURL }}/"
+url: "{{ _.baseURL }}/{{ _.module }}"
 name: Create Car
 description: ""
 method: POST
@@ -23,7 +23,9 @@ parameters: []
 headers:
   - name: Content-Type
     value: application/json
-authentication: {}
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
 metaSortKey: -1673744153489
 isPrivate: false
 settingStoreCookies: true

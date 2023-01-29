@@ -1,17 +1,19 @@
 _id: req_6716cab415b7460884d5e220d95557b0
 type: Request
 parentId: fld_ccf42c020d3b420da2604311fdf820a6
-modified: 1671240443009
+modified: 1675021801385
 created: 1668824708396
-url: "{{ _.baseURL }}/categories"
+url: "{{ _.baseURL }}/{{ _.module }}"
 name: Get Categories
 description: ""
 method: GET
 body: {}
 parameters: []
 headers: []
-authentication: {}
-metaSortKey: -1668824708396
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+metaSortKey: -1670636554379
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

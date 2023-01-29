@@ -1,9 +1,9 @@
 _id: req_052f886ee65941d1ac53469c9ce086c4
 type: Request
 parentId: fld_ccf42c020d3b420da2604311fdf820a6
-modified: 1673744176553
+modified: 1675021731881
 created: 1671240503040
-url: "{{ _.baseURL }}/categories/import"
+url: "{{ _.baseURL }}/{{ _.module }}/import"
 name: Import Categories (CSV)
 description: ""
 method: POST
@@ -14,13 +14,16 @@ body:
       name: File
       value: ""
       description: ""
+      type: file
 parameters: []
 headers:
   - name: Content-Type
     value: multipart/form-data
     id: pair_d8f280fc105a4db5ad7d82a3833e26cb
-authentication: {}
-metaSortKey: -1671240503040
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+metaSortKey: -1669686641812.5
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

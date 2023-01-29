@@ -1,9 +1,9 @@
 _id: req_45f99993e7754793a1d3573cf535de95
 type: Request
 parentId: fld_5c4a78fd3de7489084810b7afaaaa502
-modified: 1673744346375
+modified: 1675021767752
 created: 1668957374556
-url: "{{ _.baseURL }}/specifications"
+url: "{{ _.baseURL }}/{{ _.module }}"
 name: Create Specification
 description: ""
 method: POST
@@ -11,14 +11,16 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"name": "Câmbio Automático",
-    	"description": "Carro com câmbio automático"
+    	"name": "",
+    	"description": ""
     }
 parameters: []
 headers:
   - name: Content-Type
     value: application/json
-authentication: {}
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
 metaSortKey: -1668957374556
 isPrivate: false
 settingStoreCookies: true
