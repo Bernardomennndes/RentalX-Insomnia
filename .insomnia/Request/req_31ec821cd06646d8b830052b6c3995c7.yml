@@ -1,0 +1,23 @@
+_id: req_31ec821cd06646d8b830052b6c3995c7
+type: Request
+parentId: fld_403eed66dd81479a907ecf9564cc2b31
+modified: 1675018442032
+created: 1675018417144
+url: "{{ _.baseURL }}/{{ _.module }}/by-user"
+name: Get Rentals by User
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+metaSortKey: -1675018417144
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
